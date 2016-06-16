@@ -1,0 +1,13 @@
+.midNav{
+    border-top: 2px solid #0aa770;
+}
+.midNav li.active{
+    background-color: #0aa770;
+}
+.midNav li.active a{
+    color: #fff;
+    border-right: none;
+}
+.midNav li:hover a{
+    color: #0aa770;
+}
