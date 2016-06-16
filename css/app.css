@@ -214,6 +214,7 @@ ul{
     clear: both;
     overflow: hidden;
     padding-left: 15px;
+    padding-top: 10px;
     border: 1px solid #ccc;
 }
 .small-choice li{
@@ -309,8 +310,43 @@ ul{
 .commen li{
     width: 139px;
     height: 30px;
-    line-height: 30px;
     float: left;
+    line-height: 30px;
+}
+.commen a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+    color: #333;
+}
+.commen span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    vertical-align: bottom;
+    background-image: url(../images/logos.png);
+    background-repeat: no-repeat;
+}
+.sina{ background-position: 2px -278px; }
+.sohu{ background-position: 2px -318px; }
+.tencent{ background-position: 2px -38px; }
+.netes{ background-position: 2px -158px; }
+.youku{ background-position: 2px -398px; }
+.tmall{ background-position: 2px -478px; }
+.finix{ background-position: 2px -238px; }
+.taobao{ background-position: 2px -358px; }
+.freegame{ background-position: 2px -398px; }
+.Nba{ background-position: 2px -118px; }
+.jd{ background-position: 2px -78px; }
+.ju{ background-position: 2px -198px; }
+.today{ background-position: 2px -278px; }
+.haov{ background-position: 2px -638px; }
+.carh{ background-position: 2px -278px; }
+.cai{ background-position: 2px -278px; }
+.commen img{
+    vertical-align: bottom;
 }
 .mid-ul{
     clear:left;
