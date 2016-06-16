@@ -11,3 +11,22 @@
 .midNav li:hover a{
     color: #0aa770;
 }
+.authority{
+    border: 1px solid rgba(10,167,112,.4);
+}
+.authority .first a{
+    color: #0aa770;
+}
+.authority li.first:hover a{
+    color: #0aa770;
+    text-decoration: none;
+}
+.img-slide2 li.active{
+    border-top: 1px solid #0aa770;
+}
+.img-slide2 li.active a{
+    color: #0aa770;
+}
+.commen{
+    border: 1px solid rgba(10,167,112,.4);
+}
