@@ -1,47 +1,47 @@
 .midNav{
-    border-top: 2px solid #0aa770;
+    border-top: 2px solid #EA7C44;
 }
 .midNav li.active{
-    background-color: #0aa770;
+    background-color: #EA7C44;
 }
 .midNav li.active a{
     color: #fff;
     border-right: none;
 }
 .midNav li:hover a{
-    color: #0aa770;
+    color: #EA7C44;
 }
 .authority{
     border: 1px solid rgba(10,167,112,.4);
 }
 .authority .first a{
-    color: #0aa770;
+    color: #EA7C44;
 }
 .authority li.first:hover a{
-    color: #0aa770;
+    color: #EA7C44;
     text-decoration: none;
 }
 .img-slide2 li.active{
-    border-top: 1px solid #0aa770;
+    border-top: 1px solid #EA7C44;
 }
 .img-slide2 li.active a{
-    color: #0aa770;
+    color: #EA7C44;
 }
 .commen{
-    border: 1px solid rgba(10,167,112,.4);
+    border: 1px solid rgba(234,124,68,.4);
 }
 .commen li:hover a{
-    color: #0aa770;
+    color: #EA7C44;
 }
 .guess{
-    border: 1px solid rgba(10,167,112,.4);
+    border: 1px solid rgba(234,124,68,.4);
 }
 .guess > span{
-    background-color:rgba(10,167,112,.4);
+    background-color:rgba(234,124,68,.4);
 }
 .one span{
-    color: #0aa770;
+    color: #EA7C44;
 }
 .one li:hover a{
-    color: #0aa770;
+    color: #EA7C44;
 }

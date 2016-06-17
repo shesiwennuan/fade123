@@ -5,7 +5,7 @@
 body{
     font-size: 14px;
     font-family: arial;
-    background-color: #fff;
+    background: linear-gradient(#fff 20%,#eff0f0 80%);
 }
 ul{
     list-style: none;
@@ -151,6 +151,7 @@ ul{
     line-height: 40px;
     font-size: 16px;
     margin-top: 50px;
+    background-color: #fff;
 }
 .midNav li{
     float: left;
@@ -177,6 +178,7 @@ ul{
     height: 38px;
     line-height: 38px;
     margin-bottom: 10px;
+    background-color: #fff;
 }
 .authority li{
     float: left;
@@ -216,6 +218,7 @@ ul{
     padding-left: 15px;
     padding-top: 10px;
     border: 1px solid #ccc;
+    background-color: #fff;
 }
 .small-choice li{
     float: left;
@@ -306,6 +309,7 @@ ul{
 .commen{
     padding: 10px 25px;
     overflow: hidden;
+    background-color: #fff;
 }
 .commen li{
     width: 139px;
@@ -348,6 +352,106 @@ ul{
 .commen img{
     vertical-align: bottom;
 }
+.midul{
+    text-align: center;
+}
 .mid-ul{
     clear:left;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+}
+.mid-ul li{
+    float: left;
+    padding-right: 22px;
+}
+.mid-ul a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.guess{
+    clear: both;
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.guess > span{
+    float: left;
+    width: 12px;
+    margin-top: 15px;
+    border: 1px solid #eaeaea;
+    padding: 3px;
+    padding-right: 5px;
+    margin-left: -1px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+}
+.guess > ul {
+    margin-left: 36px;
+}
+.guess li{
+    float: left;
+}
+.one span{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+}
+.one ul{
+    margin-left: 50px;
+}
+.one li{
+    height: 32px;
+    line-height: 32px;
+    width: 105px;
+}
+.one li:last-child{
+    width: 50px;
+}
+.one a{
+    text-decoration: none;
+    color: #333;
+}
+.nav-right li:last-child a{
+    float: left;
+    margin-right: 5px;
+}
+.nav-right .choice-color li{
+    padding: 0;
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #eaeaea;
+    margin-right: 5px;
+    margin-top: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav-right .choice-color li:hover{
+    cursor: pointer;
+}
+.nav-right .choice-color li.active{
+    border:2px solid #eaeaea;
+}
+.choice-color{
+    float: left;
+}
+.skin1{
+    background-color: #0aa770;
+}
+.skin2{
+    background-color: #E55F7F;
+}
+.skin3{
+    background-color: #8972CE;
+}
+.skin4{
+    background-color: #EA7C44;
+}
+.skin5{
+    background-color: #4F86C4;
 }
